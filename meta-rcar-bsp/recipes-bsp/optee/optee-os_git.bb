@@ -29,7 +29,7 @@ SRC_URI_append = " \
 COMPATIBLE_MACHINE = "(salvator-x|h3ulcb|m3ulcb|m3nulcb|ebisu)"
 PLATFORM = "rcar"
 
-DEPENDS = "python-pycrypto-native"
+#DEPENDS = "python-pycrypto-native"
 
 export CROSS_COMPILE64="${TARGET_PREFIX}"
 
